@@ -1,6 +1,14 @@
 [build]
+  command = "pip install -r requirements.txt"
   publish = "/"
-  command = "npm install"
 
 [build.environment]
-  NODE_VERSION = "18.16.0"
+  PYTHON_VERSION = "3.9"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.py"
+  status = 200
+
+[functions]
+  directory = "/"
