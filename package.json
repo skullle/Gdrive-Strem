@@ -1,0 +1,10 @@
+{
+  "name": "gdrive-stremio",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "./build.sh"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
